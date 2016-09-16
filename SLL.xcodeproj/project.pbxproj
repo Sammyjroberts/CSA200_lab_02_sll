@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		53FA5BBF1D89F866004975A1 /* AnyList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 53FA5BBC1D89F866004975A1 /* AnyList.cpp */; };
-		53FA5BC01D89F866004975A1 /* Main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 53FA5BBE1D89F866004975A1 /* Main.cpp */; };
+		53231EB81D8C4E55009B4AE9 /* AnyList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 53231EB51D8C4E55009B4AE9 /* AnyList.cpp */; };
+		53231EB91D8C4E55009B4AE9 /* Main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 53231EB71D8C4E55009B4AE9 /* Main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,10 +24,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		53231EB51D8C4E55009B4AE9 /* AnyList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AnyList.cpp; sourceTree = "<group>"; };
+		53231EB61D8C4E55009B4AE9 /* AnyList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnyList.h; sourceTree = "<group>"; };
+		53231EB71D8C4E55009B4AE9 /* Main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Main.cpp; sourceTree = "<group>"; };
 		53FA5BB21D89F855004975A1 /* SLL */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SLL; sourceTree = BUILT_PRODUCTS_DIR; };
-		53FA5BBC1D89F866004975A1 /* AnyList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AnyList.cpp; path = "../../../Downloads/lab_02_sll 2/Project/AnyList.cpp"; sourceTree = "<group>"; };
-		53FA5BBD1D89F866004975A1 /* AnyList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AnyList.h; path = "../../../Downloads/lab_02_sll 2/Project/AnyList.h"; sourceTree = "<group>"; };
-		53FA5BBE1D89F866004975A1 /* Main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Main.cpp; path = "../../../Downloads/lab_02_sll 2/Project/Main.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +60,9 @@
 		53FA5BB41D89F855004975A1 /* SLL */ = {
 			isa = PBXGroup;
 			children = (
-				53FA5BBC1D89F866004975A1 /* AnyList.cpp */,
-				53FA5BBD1D89F866004975A1 /* AnyList.h */,
-				53FA5BBE1D89F866004975A1 /* Main.cpp */,
+				53231EB51D8C4E55009B4AE9 /* AnyList.cpp */,
+				53231EB61D8C4E55009B4AE9 /* AnyList.h */,
+				53231EB71D8C4E55009B4AE9 /* Main.cpp */,
 			);
 			path = SLL;
 			sourceTree = "<group>";
@@ -123,8 +123,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53FA5BC01D89F866004975A1 /* Main.cpp in Sources */,
-				53FA5BBF1D89F866004975A1 /* AnyList.cpp in Sources */,
+				53231EB81D8C4E55009B4AE9 /* AnyList.cpp in Sources */,
+				53231EB91D8C4E55009B4AE9 /* Main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +243,7 @@
 				53FA5BBB1D89F855004975A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
